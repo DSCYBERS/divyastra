@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "divyastra"
+version = "0.1.0"
+description = "A full CLI-based AI pentesting agent designed for automated offensive security assessments."
+authors = ["Your Name <youremail@example.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/yourusername/divyastra"
+repository = "https://github.com/yourusername/divyastra"
+keywords = ["pentesting", "security", "cli", "ai"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.0"
+requests = "^2.25"
+numpy = "^1.21"
+scikit-learn = "^0.24"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
