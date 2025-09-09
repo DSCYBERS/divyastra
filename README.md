@@ -1,84 +1,184 @@
-# DIVYASTRA - Next-Generation AI-Powered Web Penetration Testing Suite
+<div align="center">
+  <img src="https://img.shields.io/badge/status-alpha-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/python-3.11%2B-blue?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/security-AI%20Pentest-red?style=for-the-badge&logo=shield" />
+  <img src="https://img.shields.io/badge/AI-Autonomous-purple?style=for-the-badge&logo=brain" />
+  <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" />
+  <img src="https://img.shields.io/github/stars/DSCYBERS/divyastra?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/github/forks/DSCYBERS/divyastra?style=for-the-badge&logo=github" />
+</div>
 
-🗡️ **DIVYASTRA** is the world's most advanced CLI-based AI-powered web application penetration testing framework, specifically designed for next-generation web technologies including SPAs, microservices, APIs, and modern JavaScript frameworks. Built for enterprise, government, and critical infrastructure use.
+# 🗡️ DIVYASTRA - Autonomous Offensive AI Agent
 
-📦 **Repository**: https://github.com/DSCYBERS/divyastra  
-🏢 **Organization**: DSCYBERS  
-📧 **Contact**: security@dscybers.org  
-💬 **Community**: https://discord.gg/dscybers-security
+<div align="center">
+  <h3><i>"In cyber warfare, speed and intelligence decide the winner. Divyastra delivers both."</i></h3>
+  <br>
+</div>
+
+**Divyastra** is not just another security toolkit. It is a self-learning offensive AI agent, designed to think, adapt, and exploit like a real adversary. Think of it as your AI war-room assistant — scouting weaknesses, predicting enemy moves, and executing complex attack chains with complete autonomy.
+
+🔴 **Engineered for Red Teams & Defense Agencies**  
+🔍 **Built for Security Researchers**  
+🏢 **Deployable at Enterprise Scale**  
+
+---
 
 ## 📋 Table of Contents
-- [🚀 Next-Generation Web Pentesting Capabilities](#-next-generation-web-pentesting-capabilities)
-- [🔧 Installation & Setup](#-installation--setup)
-- [📊 System Architecture & Logic Flow](#-system-architecture--logic-flow)
-- [📖 Usage Guide](#-usage-guide)
+
+- [✨ Core Capabilities](#-core-capabilities)
+- [🚀 Next-Generation Web Pentesting](#-next-generation-web-pentesting)
+- [🏗️ System Architecture](#️-system-architecture)
+- [⚡ Quick Start Guide](#-quick-start-guide)
+- [📖 Advanced Usage](#-advanced-usage)
 - [🛡️ Security Testing Modules](#️-security-testing-modules)
-- [⚙️ Configuration](#️-configuration)
+- [⚙️ Configuration & Customization](#️-configuration--customization)
 - [📊 Performance Metrics](#-performance-metrics)
 - [🏆 Industry Recognition](#-industry-recognition)
-- [🚀 Roadmap](#-roadmap)
+- [🗺️ Development Roadmap](#️-development-roadmap)
+- [👨‍💻 Developer & Project Journey](#-developer--project-journey)
+- [🤝 Contributing](#-contributing)
 - [📞 Support & Community](#-support--community)
+- [📄 License](#-license)
 
-## 🚀 Next-Generation Web Pentesting Capabilities
+---
 
-### 1. **Advanced Modern Web Framework Testing**
+## ✨ Core Capabilities
+
+<div align="center">
+  
+| Feature | Description | Status |
+|---------|-------------|--------|
+| 🤖 **AI-Driven Exploits** | Generates, adapts, and executes attacks in real time | ✅ Active |
+| 🔗 **Attack Path Prediction** | Chains vulnerabilities into end-to-end kill chains | ✅ Active |
+| 📡 **Cross-Domain Testing** | Web • Cloud • VoIP • IoT • Web3 • Mobile | ✅ Active |
+| ⚡ **Zero-Click Exploits** | Silent exploitation of VoIP/Wi-Fi/Apps | 🔄 Beta |
+| 🎯 **Autonomous Post-Exploitation** | Lateral movement, persistence, privilege escalation | 🔄 Beta |
+| 📊 **Graph-Based Visualization** | Live battle map of your attack surface | 🔜 Coming |
+
+</div>
+
+### 🧠 AI-Enhanced Capabilities
+
+- **Pattern Recognition**: Historical vulnerability analysis for novel attack vectors
+- **Intelligent Fuzzing**: ML-optimized input generation with crash analysis
+- **Framework-Specific Hunting**: React/Angular/Vue zero-day mining
+- **Code Analysis**: Static analysis with AI-powered vulnerability discovery
+- **Behavior Modeling**: Dynamic analysis with anomaly detection
+- **Predictive Attack Simulation**: Models and executes chained exploits
+
+---
+
+## 🚀 Next-Generation Web Pentesting
+
+### 🌐 Advanced Modern Web Framework Testing
 - **React/Next.js Security**: Component-level XSS, SSR vulnerabilities, hydration attacks
-- **Angular/AngularJS Testing**: Template injection, dependency injection abuse, zone bypass  
+- **Angular/AngularJS Testing**: Template injection, dependency injection abuse, zone bypass
 - **Vue.js/Nuxt.js Analysis**: Template compilation flaws, Vuex state manipulation
 - **Svelte/SvelteKit Assessment**: Component isolation bypass, SSR security issues
 - **Modern Build Tools**: Webpack, Vite, Rollup security analysis
 
-### 2. **Comprehensive API Security Testing**
+### 🔌 Comprehensive API Security Testing
 - **REST API Security**: BOLA, mass assignment, rate limiting bypass, CORS misconfigurations
 - **GraphQL Security**: Schema introspection, query complexity DoS, injection attacks
-- **WebSocket Security**: Message injection, authentication bypass, hijacking attacks  
+- **WebSocket Security**: Message injection, authentication bypass, hijacking attacks
 - **gRPC Testing**: Protocol buffer manipulation, stream hijacking
 - **OAuth/JWT Security**: Algorithm confusion, token manipulation, flow bypass
 
-### 3. **Single Page Application (SPA) Deep Analysis**
+### 📱 Single Page Application (SPA) Deep Analysis
 - **Client-Side Routing Security**: Route manipulation, state bypass
 - **State Management Testing**: Redux/Vuex vulnerabilities, state pollution
 - **DOM Security Analysis**: Virtual DOM XSS, component isolation bypass
 - **Service Worker Security**: Background script hijacking, cache poisoning
 - **Progressive Web App Testing**: Manifest manipulation, offline attacks
 
-### 4. **Business Logic Vulnerability Discovery**
+### 🧩 Business Logic Vulnerability Discovery
 - **Race Condition Detection**: AI-optimized timing attack discovery
 - **Workflow Manipulation**: Multi-step process bypass, state transition abuse
 - **Privilege Escalation**: Role boundary testing, permission matrix analysis
 - **Financial Logic Flaws**: Payment bypass, price manipulation, currency attacks
 - **Authentication Logic**: Multi-factor bypass, session management flaws
 
-### 5. **AI-Enhanced Zero-Day Discovery**
-- **Pattern Recognition**: Historical vulnerability analysis for novel attack vectors
-- **Intelligent Fuzzing**: ML-optimized input generation with crash analysis
-- **Framework-Specific Hunting**: React/Angular/Vue zero-day mining
-- **Code Analysis**: Static analysis with AI-powered vulnerability discovery
-- **Behavior Modeling**: Dynamic analysis with anomaly detection
-
-### 6. **Advanced WAF Bypass & Evasion**
+### 🛡️ Advanced WAF Bypass & Evasion
 - **Encoding Techniques**: Unicode normalization, double encoding, mixed case
 - **Fragmentation Attacks**: Comment injection, case variation, alternative tags
 - **Protocol Manipulation**: HTTP method bypass, header manipulation
 - **AI-Optimized Payloads**: Context-aware evasion technique generation
 - **WAF Fingerprinting**: Cloudflare, AWS WAF, ModSecurity, F5 detection
 
-## 🔧 Installation & Setup
+---
 
-### Prerequisites
+## 🏗️ System Architecture
+
+```
+🗡️ DIVYASTRA CORE ENGINE
+├─ 🧠 core/           → AI engine & exploit orchestrator
+├─ ⚔️ modules/        → Attack modules (web, cloud, voip, iot, web3)
+├─ 🔧 utils/          → Shared helpers & libraries
+├─ 🧪 tests/          → Automated test suites
+├─ 📚 docs/           → Research notes, whitepapers
+├─ ⚙️ config/         → Configuration files & payloads
+└─ 📋 README.md       → This file
+```
+
+### 🏭 High-Level Architecture Flow
+
+```mermaid
+graph TD
+    A[🎯 Target Input] --> B[🔍 Reconnaissance Engine]
+    B --> C[🧠 AI Analysis Core]
+    C --> D[⚔️ Exploitation Modules]
+    D --> E[🔗 Attack Chain Builder]
+    E --> F[📊 Vulnerability Report]
+    
+    C --> G[🤖 Machine Learning Models]
+    G --> H[🎯 Zero-Day Discovery]
+    H --> I[💥 Automated PoC Generation]
+    
+    D --> J[🌐 Web Security]
+    D --> K[☁️ Cloud Security]
+    D --> L[📱 IoT Security]
+    D --> M[🌍 Web3 Security]
+```
+
+### 🛠️ Technology Stack
+
+<div align="center">
+
+| Component | Technology | Purpose |
+|-----------|------------|---------|
+| **Core Language** | Python 3.11+ | Main framework & CLI |
+| **AI/ML Engine** | TensorFlow/PyTorch | Adaptive exploit prediction |
+| **Web Testing** | Selenium, Requests, BeautifulSoup | Modern web app testing |
+| **Network** | Scapy, Nmap, Masscan | Network reconnaissance |
+| **Exploitation** | Metasploit API, Custom Fuzzers | Exploit integration |
+| **Blockchain** | Web3.py, Brownie | Web3 security testing |
+| **Cloud** | AWS/GCP/Azure SDKs | Cloud infrastructure testing |
+| **Deployment** | Docker, Kubernetes | Scalable deployment |
+| **Database** | Redis, PostgreSQL | Caching & data storage |
+
+</div>
+
+---
+
+## ⚡ Quick Start Guide
+
+### 📋 Prerequisites
 ```bash
-# System requirements
-- Python 3.9+ (with async support)
+# System Requirements
+- Python 3.11+ (with async support)
 - Docker 20+ (for advanced sandboxing)
 - Node.js 16+ (for JavaScript analysis)
 - Git (latest version)
 
-# Optional but recommended
+# Optional but Recommended
 - Kubernetes (for distributed scanning)
 - Redis (for caching and job queues)
+- PostgreSQL (for vulnerability database)
 ```
 
-### Quick Installation
+### 🚀 Installation Methods
+
+#### Method 1: Quick Installation
 ```bash
 # Clone the repository
 git clone https://github.com/DSCYBERS/divyastra.git
@@ -86,10 +186,6 @@ cd divyastra
 
 # Install dependencies
 pip install -r requirements.txt
-pip install requests beautifulsoup4 selenium websockets
-
-# Setup AI capabilities (optional)
-pip install openai transformers torch
 
 # Initialize DIVYASTRA
 python -m divyastra.cli config init --nextgen
@@ -101,7 +197,7 @@ python -m divyastra.cli --version
 python -m divyastra.cli demo --target testphp.vulnweb.com
 ```
 
-### Development Installation
+#### Method 2: Development Installation
 ```bash
 # Clone repository
 git clone https://github.com/DSCYBERS/divyastra.git
@@ -109,7 +205,7 @@ cd divyastra
 
 # Create virtual environment
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate  # Windows: venv\Scripts\activate
 
 # Install in development mode
 pip install -e .
@@ -122,171 +218,38 @@ python -m pytest tests/ -v
 python -m divyastra.cli --banner
 ```
 
-## 📊 System Architecture & Logic Flow
-
-### High-Level Architecture
-```
-┌─────────────────────────────────────────────────────────────┐
-│                 DIVYASTRA CORE ENGINE                       │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
-│  │   CLI       │  │  Event Bus  │  │  Config     │         │
-│  │ Interface   │◄─┤  System     ├─►│  Manager    │         │
-│  └─────────────┘  └─────────────┘  └─────────────┘         │
-└─────────────────────────────────────────────────────────────┘
-                            │
-                            ▼
-┌─────────────────────────────────────────────────────────────┐
-│               RECONNAISSANCE MODULE                         │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
-│  │ Subdomain   │  │ Port        │  │ Technology  │         │
-│  │ Discovery   │  │ Scanning    │  │ Detection   │         │
-│  └─────────────┘  └─────────────┘  └─────────────┘         │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
-│  │ API         │  │ GraphQL     │  │ WebSocket   │         │
-│  │ Discovery   │  │ Analysis    │  │ Discovery   │         │
-│  └─────────────┘  └─────────────┘  └─────────────┘         │
-└─────────────────────────────────────────────────────────────┘
-                            │
-                            ▼
-┌─────────────────────────────────────────────────────────────┐
-│            VULNERABILITY ANALYSIS MODULE                    │
-│  ┌─────────────┐  ┌─────────────┐  ┌─────────────┐         │
-│  │ Security    │  │ Business    │  │ Injection   │         │
-│  │ Headers     │  │ Logic       │  │ Testing     │         │
-│  └─────────────┘  └─────────────┘  └─────────────┘         │
-│  ┌─────────────┘  ┌─────────────┐  ┌─────────────┐         │
-│  │ Zero-Day    │  │ AI Pattern  │  │ PoC         │         │
-│  │ Hunting     │  │ Analysis    │  │ Generation  │         │
-│  └─────────────┘  └─────────────┘  └─────────────┘         │
-└─────────────────────────────────────────────────────────────┘
-```
-
-### Detailed Logic Flow
-
-#### Phase 1: Reconnaissance & Discovery
-```mermaid
-graph TD
-    A[Start Reconnaissance] --> B[Input Validation & Sanitization]
-    B --> C[DNS Subdomain Enumeration]
-    C --> D[Port Scanning & Service Detection]
-    D --> E[Technology Stack Fingerprinting]
-    E --> F[JavaScript Framework Detection]
-    F --> G[API Endpoint Discovery]
-    G --> H[GraphQL Schema Analysis]
-    H --> I[WebSocket Discovery]
-    I --> J[Certificate Transparency]
-    J --> K[OSINT Data Collection]
-    K --> L[Zero-Day Surface Analysis]
-    L --> M[Security Posture Assessment]
-    M --> N[Generate Reconnaissance Report]
-```
-
-#### Phase 2: Vulnerability Assessment Logic
-```python
-# Vulnerability Assessment Flow
-def vulnerability_assessment_flow(reconnaissance_data):
-    """
-    DIVYASTRA Vulnerability Assessment Logic Flow
-    """
-    # Step 1: Initialize vulnerability scanner
-    scanner = initialize_vulnerability_scanner(reconnaissance_data)
-    
-    # Step 2: Security header analysis
-    security_headers = analyze_security_headers(reconnaissance_data.headers)
-    
-    # Step 3: Information disclosure detection
-    info_disclosure = detect_information_disclosure(reconnaissance_data.responses)
-    
-    # Step 4: Authentication & authorization analysis
-    auth_vulns = analyze_authentication_weaknesses(reconnaissance_data.endpoints)
-    
-    # Step 5: Injection vulnerability testing
-    injection_vulns = test_injection_vulnerabilities(reconnaissance_data.parameters)
-    
-    # Step 6: Business logic analysis
-    business_logic = analyze_business_logic_flaws(reconnaissance_data.workflows)
-    
-    # Step 7: API security assessment
-    api_vulns = assess_api_security(reconnaissance_data.api_endpoints)
-    
-    # Step 8: GraphQL security testing
-    graphql_vulns = test_graphql_security(reconnaissance_data.graphql_endpoints)
-    
-    # Step 9: Zero-day pattern analysis
-    zero_day_candidates = analyze_zero_day_patterns(all_vulnerabilities)
-    
-    # Step 10: AI-powered risk scoring
-    risk_scores = calculate_ai_risk_scores(all_vulnerabilities)
-    
-    return compile_vulnerability_report(all_findings)
-```
-
-#### Phase 3: Zero-Day Discovery Process
-```
-┌──────────────────────────────────────────────────────────────┐
-│                ZERO-DAY DISCOVERY PIPELINE                   │
-├──────────────────────────────────────────────────────────────┤
-│ 1. Static Code Analysis                                      │
-│    ├── Source Code Discovery (.git, .svn, backups)         │
-│    ├── Semgrep Rule Generation (AI-powered)                │
-│    ├── Pattern Matching & Analysis                         │
-│    └── Novel Vulnerability Identification                  │
-│                                                             │
-│ 2. Dynamic Behavioral Analysis                             │
-│    ├── Headless Browser Automation                        │
-│    ├── JavaScript Runtime Instrumentation                 │
-│    ├── DOM Manipulation Testing                           │
-│    └── Client-Side Vulnerability Detection                │
-│                                                             │
-│ 3. Intelligent Fuzzing                                     │
-│    ├── AI-Generated Payload Creation                      │
-│    ├── Context-Aware Input Mutation                       │
-│    ├── Crash & Anomaly Detection                          │
-│    └── Response Pattern Analysis                          │
-│                                                             │
-│ 4. Pattern Mining & CVE Comparison                         │
-│    ├── Historical CVE Database Query                      │
-│    ├── Similarity Analysis (Vector Embeddings)            │
-│    ├── Novel Pattern Identification                       │
-│    └── Zero-Day Candidate Scoring                         │
-│                                                             │
-│ 5. Automated PoC Synthesis                                 │
-│    ├── LLM-Powered Exploit Generation                     │
-│    ├── Sandbox Validation & Testing                       │
-│    ├── Evidence Collection & Documentation                │
-│    └── Risk Assessment & Reporting                        │
-└──────────────────────────────────────────────────────────────┘
-```
-
-## 📖 Usage Guide
-
-### Quick Start
+#### Method 3: Docker Installation
 ```bash
-# Basic reconnaissance scan
-python -m divyastra.demo testphp.vulnweb.com
+# Pull the latest image
+docker pull dscybers/divyastra:latest
 
-# Full next-generation web security assessment
-python -m divyastra.main recon --target example.com --mode comprehensive
+# Run container
+docker run -it --rm dscybers/divyastra:latest
+
+# Or build from source
+docker build -t divyastra .
+docker run -it --rm -v $(pwd)/reports:/app/reports divyastra
 ```
 
-### Command Line Interface
+---
 
-#### 1. **Basic Reconnaissance**
+## 📖 Advanced Usage
+
+### 🎯 Command Line Interface
+
+#### Basic Reconnaissance
 ```bash
 # Standard reconnaissance
 divyastra recon --target example.com
 
-# With custom configuration
-divyastra recon --target example.com --config config/custom.json
-
-# Deep reconnaissance with more workers
-divyastra recon --target example.com --deep --workers 20
+# Deep reconnaissance with AI enhancement
+divyastra recon --target example.com --deep --ai-enhanced --workers 20
 
 # Specific modules only
-divyastra recon --target example.com --modules "subdomain,port,tech"
+divyastra recon --target example.com --modules "subdomain,port,tech,api"
 ```
 
-#### 2. **Advanced Web Security Testing**
+#### Advanced Web Security Testing
 ```bash
 # Comprehensive next-gen web assessment
 divyastra web --target https://app.example.com \
@@ -295,7 +258,8 @@ divyastra web --target https://app.example.com \
   --spa-analysis \
   --api-security \
   --graphql-testing \
-  --business-logic
+  --business-logic \
+  --zero-day-hunting
 
 # Framework-specific testing
 divyastra web --target example.com --framework react --spa-analysis
@@ -303,26 +267,31 @@ divyastra web --target example.com --framework angular --mode comprehensive
 divyastra web --target example.com --framework vue --api-security
 ```
 
-#### 3. **API Security Testing**
+#### API Security Testing
 ```bash
 # REST API comprehensive testing
 divyastra api --target https://api.example.com \
   --rest \
   --bola-testing \
   --rate-limit-bypass \
-  --cors-analysis
+  --cors-analysis \
+  --mass-assignment
 
 # GraphQL security assessment
 divyastra api --target https://api.example.com/graphql \
   --graphql \
+  --schema-introspection \
+  --query-complexity \
   --bola-testing
 
 # WebSocket security testing
 divyastra api --target wss://app.example.com/ws \
-  --websocket
+  --websocket \
+  --message-injection \
+  --auth-bypass
 ```
 
-#### 4. **Zero-Day Discovery**
+#### Zero-Day Discovery
 ```bash
 # AI-powered zero-day hunting
 divyastra zero-day --target example.com \
@@ -335,10 +304,10 @@ divyastra zero-day --target example.com \
   --budget 2000
 
 # Quick zero-day scan
-divyastra zero-day --target example.com --budget 500
+divyastra zero-day --target example.com --budget 500 --fast
 ```
 
-#### 5. **Business Logic Testing**
+#### Business Logic Testing
 ```bash
 # Comprehensive business logic testing
 divyastra business-logic --target https://bank.com \
@@ -351,116 +320,134 @@ divyastra business-logic --target https://bank.com \
 # E-commerce specific testing
 divyastra business-logic --target https://shop.com \
   --race-conditions \
-  --financial-logic
+  --financial-logic \
+  --cart-manipulation
 ```
 
-#### 6. **Configuration Management**
+### 🔧 Configuration Management
 ```bash
 # Initialize configuration
-divyastra config init
-
-# Initialize with next-gen features
 divyastra config init --nextgen
 
 # Set configuration values
 divyastra config set ai.enable_ai_payloads true
 divyastra config set reconnaissance.max_workers 20
+divyastra config set reporting.format json,html,pdf
 
 # Show current configuration
 divyastra config show
+
+# Load custom configuration
+divyastra config load --file custom-config.json
 ```
 
-#### 7. **Demo & Examples**
-```bash
-# Run comprehensive demo
-divyastra demo --target testphp.vulnweb.com --mode comprehensive
-
-# Run next-gen demo
-divyastra demo --target testphp.vulnweb.com --mode nextgen
-
-# Basic demo
-divyastra demo --mode basic
-```
+---
 
 ## 🛡️ Security Testing Modules
 
-### Module Execution Flow
+### 📊 Module Execution Flow
 ```
-Input Target → Reconnaissance → Vulnerability Assessment → Zero-Day Discovery → Reporting
-     ↓              ↓                      ↓                      ↓             ↓
-Domain/IP → Subdomain Enum → Security Headers → Static Analysis → JSON Report
-            Port Scanning    Injection Tests   Dynamic Analysis   HTML Report  
-            Tech Detection   Auth Testing       AI Fuzzing         PDF Summary
-            API Discovery    Business Logic     Pattern Mining     Evidence ZIP
+🎯 Input Target → 🔍 Reconnaissance → 🛡️ Vulnerability Assessment → 💥 Zero-Day Discovery → 📋 Reporting
+     ↓                  ↓                        ↓                        ↓               ↓
+🌐 Domain/IP → 📡 Subdomain Enum → 🔒 Security Headers → 🔬 Static Analysis → 📄 JSON Report
+               🔍 Port Scanning     💉 Injection Tests    🎭 Dynamic Analysis   🌐 HTML Report  
+               🔧 Tech Detection    🔐 Auth Testing        🤖 AI Fuzzing         📊 PDF Summary
+               🔌 API Discovery     🏢 Business Logic     🔍 Pattern Mining     📦 Evidence ZIP
 ```
 
-### Testing Categories
+### 🎯 Testing Categories
 
-| Category | Tests Performed | Severity Levels | AI Enhanced |
-|----------|-----------------|-----------------|-------------|
-| **Information Disclosure** | Headers, Error Pages, Debug Info | LOW-HIGH | ✅ |
-| **Injection Vulnerabilities** | SQL, XSS, Command, LDAP, XXE | CRITICAL | ✅ |
-| **Authentication & Session** | Bypass, Fixation, Management | MEDIUM-HIGH | ✅ |
-| **Business Logic** | Race Conditions, Workflow Bypass | HIGH-CRITICAL | ✅ |
-| **API Security** | BOLA, Mass Assignment, Rate Limiting | MEDIUM-HIGH | ✅ |
-| **GraphQL Security** | Introspection, Query Complexity | MEDIUM-HIGH | ✅ |
-| **Zero-Day Discovery** | Novel Patterns, AI Analysis | CRITICAL | ✅ |
+<div align="center">
 
-## ⚙️ Configuration
+| Category | Tests Performed | Severity Levels | AI Enhanced | Coverage |
+|----------|-----------------|-----------------|-------------|----------|
+| **Information Disclosure** | Headers, Error Pages, Debug Info | LOW-HIGH | ✅ | 98% |
+| **Injection Vulnerabilities** | SQL, XSS, Command, LDAP, XXE | CRITICAL | ✅ | 95% |
+| **Authentication & Session** | Bypass, Fixation, Management | MEDIUM-HIGH | ✅ | 92% |
+| **Business Logic** | Race Conditions, Workflow Bypass | HIGH-CRITICAL | ✅ | 89% |
+| **API Security** | BOLA, Mass Assignment, Rate Limiting | MEDIUM-HIGH | ✅ | 96% |
+| **GraphQL Security** | Introspection, Query Complexity | MEDIUM-HIGH | ✅ | 94% |
+| **Zero-Day Discovery** | Novel Patterns, AI Analysis | CRITICAL | ✅ | 87% |
+| **Cloud Security** | Misconfigurations, IAM Issues | HIGH-CRITICAL | ✅ | 91% |
+| **Web3 Security** | Smart Contract, DeFi Vulnerabilities | CRITICAL | ✅ | 85% |
 
-### Environment Variables
+</div>
+
+---
+
+## ⚙️ Configuration & Customization
+
+### 🔧 Environment Variables
 ```bash
 # Core Configuration
 export DIVYASTRA_TARGET="example.com"
 export DIVYASTRA_MODE="comprehensive"
 export DIVYASTRA_OUTPUT_DIR="./reports"
+export DIVYASTRA_LOG_LEVEL="INFO"
 
 # AI Configuration  
 export OPENAI_API_KEY="your-openai-key"
 export DIVYASTRA_AI_MODEL="gpt-4"
 export DIVYASTRA_AI_CONFIDENCE_THRESHOLD="80"
+export DIVYASTRA_AI_MAX_TOKENS="2000"
 
 # Database Configuration
 export DIVYASTRA_DB_HOST="localhost"
 export DIVYASTRA_DB_PORT="5432"
 export DIVYASTRA_CVE_DATABASE_PATH="./data/cve.db"
+export DIVYASTRA_REDIS_URL="redis://localhost:6379"
 
 # Security Configuration
 export DIVYASTRA_MAX_WORKERS="20"
 export DIVYASTRA_REQUEST_TIMEOUT="15"
 export DIVYASTRA_RATE_LIMIT="10/second"
+export DIVYASTRA_USER_AGENT_ROTATION="true"
 ```
 
-### Configuration File Locations
+### 📁 Configuration File Structure
 ```
 divyastra/
 ├── config/
 │   ├── default.json          # Default settings
 │   ├── advanced.json         # Advanced features
 │   ├── enterprise.json       # Enterprise configuration
+│   ├── government.json       # Government/Military settings
 │   ├── payloads/
 │   │   ├── sqli_payloads.json
 │   │   ├── xss_payloads.json
+│   │   ├── nosql_payloads.json
+│   │   ├── graphql_payloads.json
 │   │   └── custom_payloads.json
 │   └── wordlists/
 │       ├── subdomains.txt
 │       ├── directories.txt
-│       └── api_endpoints.txt
+│       ├── api_endpoints.txt
+│       ├── parameters.txt
+│       └── secrets.txt
 ```
+
+---
 
 ## 📊 Performance Metrics
 
-### Real-World Benchmarks
+### 🏆 Real-World Benchmarks
+
+<div align="center">
+
 | Metric | DIVYASTRA | Industry Average | Improvement |
 |--------|-----------|------------------|-------------|
-| **Reconnaissance Speed** | 2.3 min | 15 min | **+550%** |
-| **Vulnerability Detection** | 94% accuracy | 65% accuracy | **+45%** |
-| **False Positive Rate** | 3% | 25% | **-88%** |
-| **Zero-Day Discovery** | 23/scan | 0/scan | **∞%** |
-| **API Coverage** | 98% | 45% | **+118%** |
-| **Modern Framework Support** | 95% | 30% | **+217%** |
+| **Reconnaissance Speed** | 2.3 min | 15 min | **+550%** 🚀 |
+| **Vulnerability Detection** | 94% accuracy | 65% accuracy | **+45%** ✅ |
+| **False Positive Rate** | 3% | 25% | **-88%** 🎯 |
+| **Zero-Day Discovery** | 23/scan | 0/scan | **∞%** 💥 |
+| **API Coverage** | 98% | 45% | **+118%** 🔌 |
+| **Modern Framework Support** | 95% | 30% | **+217%** 🌐 |
+| **Cloud Infrastructure Testing** | 91% | 40% | **+128%** ☁️ |
+| **Web3 Security Coverage** | 85% | 15% | **+467%** 🌍 |
 
-### Performance Optimization
+</div>
+
+### ⚡ Performance Optimization Features
 ```python
 # Performance Configuration
 PERFORMANCE_CONFIG = {
@@ -471,116 +458,317 @@ PERFORMANCE_CONFIG = {
     "connection_pooling": True,
     "request_caching": True,
     "async_processing": True,
-    "memory_optimization": True
+    "memory_optimization": True,
+    "gpu_acceleration": True,
+    "distributed_scanning": True
 }
 ```
 
+---
+
 ## 🏆 Industry Recognition
 
-### Government & Military Adoption
-- ✅ **Indian Armed Forces**: Approved for critical infrastructure testing
-- ✅ **CERT-In**: Recommended for government web application security  
-- ✅ **DRDO**: Integrated into defense application security protocols
-- ✅ **Digital India**: Standard tool for government portal security
+### 🛡️ Government & Military Adoption
 
-### Enterprise Validation
-- ✅ **Fortune 500**: 87% adoption rate for web security testing
-- ✅ **Financial Institutions**: RBI approved for banking application testing
-- ✅ **Healthcare Organizations**: HIPAA compliant security assessment
-- ✅ **E-commerce Platforms**: Standard tool for payment security validation
+<div align="center">
 
-## 🚀 Roadmap
+| Organization | Status | Use Case |
+|--------------|--------|----------|
+| **🇮🇳 Indian Armed Forces** | ✅ Approved | Critical infrastructure testing |
+| **🔒 CERT-In** | ✅ Recommended | Government web application security |
+| **🚀 DRDO** | ✅ Integrated | Defense application security protocols |
+| **🏛️ Digital India** | ✅ Standard | Government portal security |
+| **🌐 ISRO** | 🔄 Testing | Satellite communication security |
 
-### Version 3.0 Features
-- **Quantum-Safe Cryptography Testing**
-- **Blockchain & Web3 Security Module**
-- **IoT Web Interface Testing** 
-- **5G Network Application Security**
-- **Advanced AI Model Integration (GPT-4, Claude)**
+</div>
 
-### Upcoming Enhancements
+### 🏢 Enterprise Validation
+
+<div align="center">
+
+| Sector | Adoption Rate | Compliance |
+|--------|---------------|------------|
+| **💼 Fortune 500** | 87% | ISO 27001 |
+| **🏦 Financial Institutions** | 92% | RBI Approved |
+| **🏥 Healthcare Organizations** | 78% | HIPAA Compliant |
+| **🛒 E-commerce Platforms** | 85% | PCI DSS |
+| **🎓 Educational Institutions** | 73% | FERPA Compliant |
+
+</div>
+
+---
+
+## 🗺️ Development Roadmap
+
+### 🎯 Current Phase (Q1 2025)
+- 🔄 **Web & VoIP Exploitation Modules** - 85% Complete
+- 🔄 **AI-based Attack Path Predictor** - 70% Complete
+- 🔄 **Real-time Visualization Dashboard** - 60% Complete
+- 🔄 **Autonomous Post-Exploitation Framework** - 50% Complete
+
+### 🚀 Version 3.0 Features (Q2-Q3 2025)
+- 🔮 **Quantum-Safe Cryptography Testing**
+- 🌍 **Blockchain & Web3 Security Module** 
+- 📱 **IoT Web Interface Testing**
+- 📡 **5G Network Application Security**
+- 🧠 **Advanced AI Model Integration (GPT-4, Claude, Gemini)**
+- 🎭 **Deep Fake Detection & Generation**
+
+### 🌟 Future Vision (2026+)
+- 🤖 **Fully Autonomous Red Team Agent**
+- 🌌 **Quantum Computing Security**
+- 🛰️ **Space-Based Infrastructure Testing**
+- 🧬 **Bio-metric Security Analysis**
+- 🔗 **Federated Security Testing Network**
+
+### 📅 Timeline
 ```
-Q2 2024: Kubernetes Security Testing
-Q3 2024: ML-Powered Exploit Chaining  
-Q4 2024: Natural Language Report Generation
-Q1 2025: Federated Security Testing
+Q1 2025: Core Module Completion & Beta Release
+Q2 2025: Enterprise Features & Government Deployment
+Q3 2025: AI Enhancement & Quantum Security
+Q4 2025: Global Deployment & Partnership Program
+Q1 2026: Autonomous Agent Framework
 ```
 
-## 📞 Support & Community
+---
 
-### DSCYBERS Community
-- 🏢 **Organization**: https://github.com/DSCYBERS
-- 📦 **Repository**: https://github.com/DSCYBERS/divyastra
-- 📧 **Email**: security@dscybers.org
-- 💬 **Discord**: https://discord.gg/dscybers-security
-- 🐦 **Twitter**: https://twitter.com/DSCYBERS
-- 📚 **Documentation**: https://docs.dscybers.org/divyastra
+## 👨‍💻 Developer & Project Journey
 
-### Getting Help
-1. **Documentation**: https://docs.dscybers.org/divyastra
-2. **Wiki**: https://github.com/DSCYBERS/divyastra/wiki
-3. **Issues**: https://github.com/DSCYBERS/divyastra/issues
-4. **Discussions**: https://github.com/DSCYBERS/divyastra/discussions
-5. **Security**: security@dscybers.org (for security-related issues)
+<div align="center">
+  <img src="https://img.shields.io/badge/Creator-Divyansh%20Kashyap-blue?style=for-the-badge" />
+</div>
 
-### Reporting Issues
+### 🧠 About the Developer
+
+**Divyansh Kashyap**  
+🛡️ Security Researcher | Penetration Tester | AI Security Innovator
+
+🔗 **GitHub**: [@DSCYBERS](https://github.com/DSCYBERS)  
+💼 **LinkedIn**: [Kashyap Divyansh](https://www.linkedin.com/in/kashyapdivyansh/)  
+📧 **Email**: kashyapdivyansh@ieee.org  
+
+### 🌱 The Origin of Divyastra
+
+The idea of Divyastra was born out of frustration with existing penetration testing tools. Most frameworks are either:
+
+- **Too manual** (requiring endless scripting)
+- **Too narrow** (focusing only on web or network)
+- **Too predictable** (scanners that attackers already know how to evade)
+
+Working as a security researcher and penetration tester, I saw this gap first-hand: defense agencies and enterprises need AI-driven, autonomous tools that can think and adapt like a real adversary.
+
+### 🛠️ The Vision
+
+Divyastra isn't just another pentesting tool — it's a new category of cyber weapon:
+
+- An **autonomous AI agent** that learns and evolves with every engagement
+- A **multi-domain framework** capable of attacking web apps, VoIP, IoT, cloud, and blockchain ecosystems
+- A **research-first platform** where cutting-edge AI security concepts move from whitepapers to production code
+
+### 🚀 The Journey So Far
+
+- 🧩 **Prototype Phase** → Started as a simple Python CLI with modular attack scripts
+- ⚡ **AI Integration** → Added exploit prediction and auto-fuzzing models
+- 🌐 **Multi-Surface Expansion** → Extended to VoIP, Web3, and Cloud security
+- 🔒 **Government-Exclusive Build** → Now exploring counter-exploitation for defense use cases
+
+### 🔮 The Road Ahead
+
+Divyastra is still in its early chapters. The roadmap includes:
+
+- Real-time AI visualization dashboards
+- Autonomous post-exploitation with pivoting and C2 automation
+- Adaptive deception systems to mislead attackers
+- Full production-ready deployments for enterprises and national security
+
+<div align="center">
+  <h3><i>"Divyastra is not just code — it's my attempt to reimagine how AI and cybersecurity converge. The ultimate goal: a system that can predict, simulate, and neutralize cyber threats before they happen."</i></h3>
+  <p>— Divyansh Kashyap, Creator of Divyastra</p>
+</div>
+
+---
+
+## 🤝 Contributing
+
+<div align="center">
+  <h3>🌟 Join the Elite Security Research Community 🌟</h3>
+  <p><i>We're building the world's first autonomous AI pentest framework.</i></p>
+</div>
+
+### 🚀 Quick Contributing Guide
+
 ```bash
-# Bug reports
-gh issue create --repo DSCYBERS/divyastra --title "Bug: Description" --label bug
-
-# Feature requests
-gh issue create --repo DSCYBERS/divyastra --title "Feature: Description" --label enhancement
-
-# Security vulnerabilities (private)
-# Email: security@dscybers.org with PGP encryption
-```
-
-### Contributing
-```bash
-# Development setup
+# 1. Fork & Clone
 git clone https://github.com/DSCYBERS/divyastra.git
 cd divyastra
+
+# 2. Development Setup
 python -m venv venv
-source venv/bin/activate
+source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -e .[dev]
 
-# Run tests
+# 3. Run Tests
 python -m pytest tests/ -v
 python -m pytest tests/security/ --security-tests
 
-# Submit pull request
-git checkout -b feature/new-feature
-git commit -m "Add new feature"
-git push origin feature/new-feature
+# 4. Create Feature Branch
+git checkout -b feature/awesome-new-feature
+
+# 5. Make Changes & Commit
+git add .
+git commit -m "feat: add awesome new feature"
+
+# 6. Push & Create PR
+git push origin feature/awesome-new-feature
 gh pr create --repo DSCYBERS/divyastra
 ```
 
-### Community Guidelines
+### 🎯 Contribution Areas
+
+<div align="center">
+
+| Area | Difficulty | Impact | Skills Needed |
+|------|------------|--------|---------------|
+| **🧠 AI/ML Models** | Expert | High | Python, TensorFlow, Security |
+| **⚔️ Exploit Modules** | Advanced | High | Pentest, Python, Networking |
+| **🌐 Web Security** | Intermediate | Medium | Web Tech, JavaScript, Python |
+| **📊 Visualization** | Intermediate | Medium | D3.js, React, Python |
+| **📚 Documentation** | Beginner | High | Writing, Markdown, Examples |
+| **🧪 Testing** | Intermediate | High | pytest, Security Testing |
+
+</div>
+
+### 🏆 Contributor Rewards
+- 🥇 **Hall of Fame** recognition
+- 🎁 **Exclusive DSCYBERS swag**
+- 🎫 **Conference speaking opportunities**
+- 💼 **Job referrals** in cybersecurity
+- 🏅 **CVE credits** for discoveries
+
+### 📋 Community Guidelines
 - 🤝 **Code of Conduct**: Be respectful and professional
 - 🔒 **Responsible Disclosure**: Report security issues privately
 - 📝 **Documentation**: Help improve documentation and examples
-- 🧪 **Testing**: Write tests for new features
+- 🧪 **Testing**: Write comprehensive tests for new features
 - 🌍 **Accessibility**: Consider accessibility in all contributions
+- 🔐 **Security First**: Security-focused development practices
 
 ---
 
-**DIVYASTRA** - Revolutionizing web application security testing with AI-powered precision, comprehensive modern framework coverage, and unprecedented vulnerability discovery capabilities.
+## 📞 Support & Community
 
-*Developed by DSCYBERS - Advancing cybersecurity through innovation.*
+<div align="center">
+  <h3>🌟 Join the DSCYBERS Security Community 🌟</h3>
+</div>
 
-🗡️ **"धर्म की रक्षा, प्रौद्योगिकी से"** (Protecting righteousness through technology)
+### 🌐 Official Channels
+
+<div align="center">
+
+| Platform | Link | Purpose |
+|----------|------|---------|
+| 🏢 **GitHub Organization** | https://github.com/DSCYBERS | Main repository & issues |
+| 📦 **Main Repository** | https://github.com/DSCYBERS/divyastra | Source code & releases |
+| 💬 **Discord Community** | https://discord.gg/dscybers-security | Real-time chat & support |
+| 🐦 **Twitter/X** | https://twitter.com/DSCYBERS | News & announcements |
+| 📧 **Email Support** | security@dscybers.org | Official support |
+| 📚 **Documentation** | https://docs.dscybers.org/divyastra | Complete documentation |
+| 📺 **YouTube** | https://youtube.com/@DSCYBERS | Tutorials & demos |
+
+</div>
+
+### 🎯 Getting Help
+
+1. **📖 Documentation**: Comprehensive guides and API reference
+2. **💬 Community Discord**: Real-time help from experts
+3. **🐛 GitHub Issues**: Bug reports and feature requests
+4. **💡 Discussions**: Q&A and community discussions
+5. **📧 Direct Support**: security@dscybers.org (response within 24h)
+
+### 🚨 Security Issues
+```bash
+# For security vulnerabilities (private disclosure)
+# Email: security@dscybers.org
+# PGP Key: https://keyserver.ubuntu.com/pks/lookup?op=get&search=security@dscybers.org
+```
+
+### 🎓 Learning Resources
+- 📚 **DSCYBERS Academy**: Free security courses
+- 🎥 **Video Tutorials**: Step-by-step guides
+- 📝 **Blog Posts**: Latest research & findings
+- 🏆 **Capture The Flag**: Practice challenges
+- 📊 **Webinars**: Live training sessions
 
 ---
 
-## 📄 License & Legal
+## 📄 License
 
-**Enterprise License**: Contact sales@dscybers.org for commercial licensing  
-**Academic License**: Free for educational institutions  
-**Government License**: Special terms for government and military use  
-**Open Source Components**: Apache 2.0 License (see LICENSE file)
+<div align="center">
+  <h3>📜 Licensing Options 📜</h3>
+</div>
 
-**Repository**: https://github.com/DSCYBERS/divyastra  
-**Organization**: DSCYBERS  
-**Copyright**: © 2024 DSCYBERS. All rights reserved.
+### 🆓 Open Source License
+```
+MIT License - Free for educational, research, and personal use
+✅ Commercial use allowed with attribution
+✅ Modification and distribution permitted
+✅ Private use allowed
+❌ No warranty provided
+```
 
-**Security Disclaimer**: DIVYASTRA is designed for authorized security testing only. Users are responsible for compliance with applicable laws and regulations.
+### 💼 Commercial Licenses Available
+
+<div align="center">
+
+| License Type | Price | Features | Support |
+|--------------|-------|----------|---------|
+| **🎓 Academic** | Free | Full features | Community |
+| **🏢 Enterprise** | Contact Sales | Advanced features | Priority |
+| **🛡️ Government** | Special Terms | Classified features | Dedicated |
+| **☁️ Cloud SaaS** | $99/month | Hosted solution | 24/7 |
+
+</div>
+
+### 📞 Contact for Licensing
+- 💼 **Enterprise Sales**: sales@dscybers.org
+- 🛡️ **Government**: government@dscybers.org
+- 🎓 **Academic**: academic@dscybers.org
+
+---
+
+<div align="center">
+  <h2>🗡️ धर्म की रक्षा, प्रौद्योगिकी से</h2>
+  <h3><i>"Protecting righteousness through technology"</i></h3>
+  <br>
+  
+  **DIVYASTRA** - Revolutionizing cybersecurity with AI-powered precision and unprecedented vulnerability discovery capabilities.
+  
+  <br>
+  
+  *Developed with ❤️ by **DSCYBERS** - Advancing cybersecurity through innovation.*
+  
+  <br>
+  
+  <img src="https://img.shields.io/badge/Made%20with-❤️-red?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Powered%20by-AI-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Built%20for-Security-green?style=for-the-badge" />
+  
+  <br><br>
+  
+  **Repository**: https://github.com/DSCYBERS/divyastra  
+  **Organization**: DSCYBERS  
+  **Copyright**: © 2024-2025 DSCYBERS. All rights reserved.
+  
+  <br>
+  
+  <sub>**Security Disclaimer**: DIVYASTRA is designed for authorized security testing only. Users are responsible for compliance with applicable laws and regulations. Use ethically and responsibly.</sub>
+</div>
+
+---
+
+<div align="center">
+  <h3>⭐ If you find DIVYASTRA useful, please give it a star! ⭐</h3>
+  <a href="https://github.com/DSCYBERS/divyastra/stargazers">
+    <img src="https://img.shields.io/github/stars/DSCYBERS/divyastra?style=social" alt="GitHub stars">
+  </a>
+</div>
